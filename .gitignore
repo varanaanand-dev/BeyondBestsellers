@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Local backup
+app_backup.py
+
+# macOS
+.DS_Store
