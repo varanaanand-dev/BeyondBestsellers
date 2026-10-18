@@ -17,15 +17,23 @@ st.set_page_config(
 # --------------------------------------------------
 
 st.markdown("""
+<style>
 
-
-/* Restore the dark top strip */
+/* Streamlit top toolbar */
 header[data-testid="stHeader"] {
     background-color: #282522 !important;
     height: 3.5rem !important;
 }
 
-<style>
+/* Make toolbar controls readable */
+header[data-testid="stHeader"] button,
+header[data-testid="stHeader"] button *,
+header[data-testid="stHeader"] a,
+header[data-testid="stHeader"] span {
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+
 /* Overall page */
 .stApp {
     background-color: #F7F3EC;
@@ -39,7 +47,7 @@ header[data-testid="stHeader"] {
 }
 
 /* Typography */
-html, body, [class*="st-"] {
+html, body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -116,17 +124,7 @@ div[data-baseweb="input"] > div {
     font-family: Georgia, "Times New Roman", serif;
 }
 
-/* Product cards */
-div[data-testid="stVerticalBlockBorderWrapper"] {
-    background-color: #FFFCF7;
-    border: 1px solid #E3DACE;
-    border-radius: 3px;
-    padding: 0.45rem;
-    transition: border-color 0.2s ease;
-}
 
-div[data-testid="stVerticalBlockBorderWrapper"]:hover {
-    border-color: #B59A91;
 }
 
 /* Product photos */
@@ -208,6 +206,7 @@ a {
     color: #282522 !important;
     background-color: #FFFCF7 !important;
 }
+
 
 </style>
 """, unsafe_allow_html=True)
@@ -319,6 +318,7 @@ products = pd.DataFrame([
     },
     {
         "product": "Arbiter Collection Solid Top",
+        "image": "images/Arbiter.png",
         "platform": "Myntra",
         "price": 790,
         "category": "Western",
@@ -330,6 +330,7 @@ products = pd.DataFrame([
     },
     {
         "product": "rarethread Mustard Kurta",
+        "image": "images/rarethread.png",
         "platform": "Myntra",
         "price": 560,
         "category": "Indian",
@@ -357,6 +358,16 @@ budget = st.sidebar.slider(
     value=1500,
     step=50
 )
+min_col, max_col = st.sidebar.columns(2)
+
+with min_col:
+    st.markdown("300")
+
+with max_col:
+    st.markdown(
+        "<div style='text-align: right;'>3000</div>",
+        unsafe_allow_html=True
+    )
 
 category = st.sidebar.selectbox(
     "What are you shopping for?",
@@ -599,7 +610,10 @@ else:
 
     for _, product in results.iterrows():
         with st.container(border=True):
-            image_col, left, right = st.columns([1, 3, 1])
+            image_col, left, right = st.columns(
+                [1.4, 3, 1.2],
+                gap="large"
+            )
 
             with image_col:
                 image_path = product.get("image", "")
