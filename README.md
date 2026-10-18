@@ -76,8 +76,7 @@ Potential enhancements include:
 ## Project Context
 
 Beyond Bestsellers combines an interest in fashion e-commerce, data analysis, and software development.
-
-It is being developed alongside a research case study examining fashion-product discovery experiences on Myntra and Tata CLiQ.
+It was developed alongside a research case study examining fashion-product discovery experiences on Myntra and Tata CLiQ.
 
 ## About the Creator
 
