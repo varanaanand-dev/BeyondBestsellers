@@ -74,6 +74,10 @@ It is being developed alongside a research case study examining fashion-product 
 
 **Varana Anand**
 
-Computer Science undergraduate with interests in artificial intelligence, data analytics, product strategy, and the intersection of technology and fashion.
+Computer Science undergraduate interested in artificial intelligence, machine learning, data science, product management, and business strategy, with a particular focus on the fashion and luxury industries.
 
-Beyond Bestsellers reflects my interest in understanding consumer experiences, identifying opportunities for improvement, and exploring how data and AI can shape more personalized digital products.
+I am interested in exploring how technology and consumer insights can improve digital experiences, support business decisions, and create more personalized products.
+
+Beyond Bestsellers brings these interests together through fashion e-commerce research, preference-based product discovery, data analysis, and an interactive prototype.
+
+My long-term interests include combining technical expertise with business leadership and pursuing an MBA.
