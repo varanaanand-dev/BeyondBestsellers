@@ -8,7 +8,10 @@ Beyond Bestsellers explores a common challenge in online fashion shopping: findi
 
 The project demonstrates how structured product information and user-selected preferences can support a more personalized shopping experience.
 
-## Live Demo
+## Live Demo & Case Study PDF
+
+**[Beyond Bestsellers Case Study By Varana Anand.pdf](https://github.com/user-attachments/files/33617304/Beyond.Bestsellers.Case.Study.By.Varana.Anand.pdf)**
+
 
 **[Try Beyond Bestsellers](https://varanananand-beyondbestsellers.streamlit.app)**
 
