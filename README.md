@@ -8,6 +8,13 @@ Beyond Bestsellers explores a common challenge in online fashion shopping: findi
 
 The project demonstrates how structured product information and user-selected preferences can support a more personalized shopping experience.
 
+## Live Demo
+
+🚀 **[Try Beyond Bestsellers](https://varanananand-beyondbestsellers.streamlit.app)**
+
+Explore the interactive prototype by adjusting your budget, shopping category, occasion, and style preferences to see how the rule-based recommendation system ranks products.
+
+
 ## The Problem
 
 Fashion e-commerce platforms offer extensive product catalogs, but discovering relevant items can still require significant browsing and filtering.
