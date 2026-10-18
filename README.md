@@ -55,9 +55,11 @@ Launch the application:
 streamlit run app.py
 ```
 
-## Current Development
+## Current Version
 
-This project is an evolving prototype. Current work focuses on improving product coverage, refining the recommendation experience, and documenting the research behind the design.
+The current prototype includes a curated eight-product dataset, interactive preference controls, budget and category filtering, occasion-based matching, style preferences, and transparent rule-based recommendation scoring.
+
+Each recommendation explains the factors that contributed to its score, making the system's decision process visible to the user.
 
 ## Future Development
 
