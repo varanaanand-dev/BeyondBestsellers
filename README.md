@@ -10,7 +10,7 @@ The project demonstrates how structured product information and user-selected pr
 
 ## Live Demo
 
-🚀 **[Try Beyond Bestsellers](https://varanananand-beyondbestsellers.streamlit.app)**
+**[Try Beyond Bestsellers](https://varanananand-beyondbestsellers.streamlit.app)**
 
 Explore the interactive prototype by adjusting your budget, shopping category, occasion, and style preferences to see how the rule-based recommendation system ranks products.
 
